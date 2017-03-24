@@ -24,7 +24,9 @@ public class MartTheMartian extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
 		batch.draw(img, 0, 0);
+		font.setColor(1, 1, 1, 1);
 		font.draw(batch, "Hello, test?", 50, 50);
+		font.draw(batch, "No Thankss", 50, 200);
 		batch.end();
 	}
 	
