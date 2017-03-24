@@ -26,7 +26,7 @@ public class MartTheMartian extends ApplicationAdapter {
 		batch.draw(img, 0, 0);
 		font.setColor(1, 1, 1, 1);
 		font.draw(batch, "Hello, test?", 50, 50);
-		font.draw(batch, "No Thankss", 50, 200);
+		font.draw(batch, "No Thankss", 50, 100);
 		batch.end();
 	}
 	
